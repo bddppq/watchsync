@@ -1,0 +1,27 @@
+{
+  "name": "watchsync",
+  "version": "1.0.0",
+  "description": "Syncing local files & directories to remote host using watchman",
+  "main": "watchsync.js",
+  "scripts": {
+      "app": "coffee app.coffee",
+      "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bddppq/watchsync.git"
+  },
+  "keywords": [
+    "watchman",
+    "sync"
+  ],
+  "author": "bddppq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bddppq/watchsync/issues"
+  },
+  "homepage": "https://github.com/bddppq/watchsync#readme",
+  "dependencies": {
+    "fb-watchman": "^1.7.0"
+  }
+}
